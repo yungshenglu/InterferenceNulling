@@ -1,10 +1,13 @@
 # Interference Nulling
 
-[![License: IEEE](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+This repository is the assignment in NCTU course "Wireless Communication Systems 2018".
+
+---
+## Abstract
 
 This repository is going to simulate "interference nulling" in simple MIMO OFDM with BPSK demodulation by using the example code on [WARPLab](https://warpproject.org/trac/wiki/WARPLab/Examples/OFDM) `wl_example_siso_ofdm_txrx.m​`. This repository is extended from my another repository - [Simple SISO OFDM MATLAB simulation](https://github.com/yungshenglu/Simple_SISO_OFDM).
-*Notice that this repository is NCTU CS course lab of "Wireless Communication Systems 2018". If you are taking this course, please do not duplicate from this repository. All rights reserved.*
 
+---
 ## Introduction
 
 The sample code `wl_example_siso_ofdm_txrx.m​` follows the following steps.
@@ -76,16 +79,9 @@ In the part of decoding,
     * Combined signal w/ precoding
 
 ---
-## TODO
-
-(Update soon.)
-
----
 ## Contributor
 
-* [Yung-Sheng Lu](https://github.com/yungshenglu)
+* [David Lu](https://github.com/yungshenglu)
 
 ---
-> Notice that this repository is NCTU CS course lab of "Wireless Communication Systems 2018". If you are taking this course, please do not duplicate from this repository. All rights reserved.
-
-[![License: IEEE](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
+> **NOTICE:** This repository is the assignment in NCTU CS course "Wireless Communication Systems 2018". If you are taking this course, please do not duplicate from this repository. All rights reserved.
