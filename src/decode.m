@@ -128,15 +128,15 @@ function [ SNR_decoded_dB11, SNR_decoded_dB12, SNR_decoded_dB21, SNR_decoded_dB2
 
     
     %% David: Load files
-    tx_data = read_real_binary( 'tx_data.bin' );
+    tx_data = read_real_binary( '../out/tx_data.bin' );
 
-    file = fopen( 'tx_syms_mat.bin' );
+    file = fopen( '../out/tx_syms_mat.bin' );
     same_real = fread( file, [ 48, 50 ], 'float' );
     same_imag = fread( file, [ 48, 50 ], 'float' );
     fclose( file );
     tx_syms_mat = complex( same_real, same_imag );
 
-    rx_vec_air = read_complex_binary( 'rx_vec_air.bin' );
+    rx_vec_air = read_complex_binary( '../out/rx_vec_air.bin' );
     rx_signal = abs( rx_vec_air );
     % end
     
