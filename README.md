@@ -1,4 +1,4 @@
-# Interference Nulling
+# Interference Nulling in Simulation
 
 This repository is the assignment in NCTU course "Wireless Communication Systems 2018".
 
