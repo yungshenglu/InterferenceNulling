@@ -1,13 +1,13 @@
 # Interference Nulling in Simulation
 
-In this repository, we are going to simulate "interference nulling" in simple MIMO OFDM with BPSK demodulation by using the example code on [WARPLab](https://warpproject.org/trac/wiki/WARPLab/Examples/OFDM) `wl_example_siso_ofdm_txrx.m​`. This repository is extended from my another repository - [Simple SISO OFDM MATLAB simulation](https://github.com/yungshenglu/Simple_SISO_OFDM).
+In this repository, we are going to simulate "interference nulling" in simple MIMO OFDM with BPSK demodulation by using the example code on [WARPLab](https://warpproject.org/trac/wiki/WARPLab/Examples/OFDM) `wl_example_siso_ofdm_txrx.m`. This repository is extended from my another repository - [Simple SISO OFDM MATLAB simulation](https://github.com/yungshenglu/Simple_SISO_OFDM).
 
 > **NOTCIE:** This repository is the assignment in NCTU course "Wireless Communication Systems 2018". If you are taking this course, please do not duplicate from this repository. All rights reserved.
 
 ---
 ## Description
 
-The sample code `wl_example_siso_ofdm_txrx.m​` follows the following steps.
+The sample code `wl_example_siso_ofdm_txrx.m` follows the following steps.
 1. Generate OFDM transmit samples
 2. Send samples via WARP or Simulation transmission
 3. Decode the received samples
