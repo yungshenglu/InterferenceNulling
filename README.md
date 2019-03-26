@@ -1,7 +1,5 @@
 # Interference Nulling in Simulation
 
-This repository is the assignment in NCTU course "Wireless Communication Systems 2018".
-
 In this repository, we are going to simulate "interference nulling" in simple MIMO OFDM with BPSK demodulation by using the example code on [WARPLab](https://warpproject.org/trac/wiki/WARPLab/Examples/OFDM) `wl_example_siso_ofdm_txrx.m​`. This repository is extended from my another repository - [Simple SISO OFDM MATLAB simulation](https://github.com/yungshenglu/Simple_SISO_OFDM).
 
 > **NOTCIE:** This repository is the assignment in NCTU course "Wireless Communication Systems 2018". If you are taking this course, please do not duplicate from this repository. All rights reserved.
@@ -56,23 +54,23 @@ In the part of decoding,
     * Generate noise to simulate different SNR (as in [Simple SISO OFDM MATLAB simulation](https://github.com/yungshenglu/Simple_SISO_OFDM))
         * Make sure $(E[y_1^2 + y_2^2]) / N = \mathrm{SNR}$
         * Not $E[ (y_1 + y_2) ^ 2 ] / N = \mathrm{SNR}$
-    * Learn the channel $H_14 and $H_2$
+    * Learn the channel $H_1$ and $H_2$
     * Decode the received signal via SISO decoding (as in [Simple SISO OFDM MATLAB simulation](https://github.com/yungshenglu/Simple_SISO_OFDM))
     * Compare the SNR with and without precoding
         * `SNR-1`:
-            * Tx1 sends the non-precoded signals $y_1$ ($y_1 = ifft(H_1X)$) along, and Rx decodes $y_1$
+            * `Tx1` sends the non-precoded signals $y_1$ ($y_1 = ifft(H_1X)$) along, and Rx decodes $y_1$
         * `SNR-2`:
-            * Tx2 sends the non-precoded signals $y_2$ ($y_2 = ifft(H_2X)$) along, and Rx decodes $y_2$
+            * `Tx2` sends the non-precoded signals $y_2$ ($y_2 = ifft(H_2X)$) along, and Rx decodes $y_2$
         * `SNR-orig`:
-            * Tx1 and Tx2 send the non-precoded signals simultaneously ($y = ifft(H_1 X_1 + H_2 X_2)$)
-            * Rx decodes the combined original signals
+            * `Tx1` and `Tx2` send the non-precoded signals simultaneously ($y = ifft(H_1 X_1 + H_2 X_2)$)
+            * `Rx` decodes the combined original signals
         * `SNR-null`:
-            * Tx1 and Tx2 send precoded signals simultaneously ($y = ifft(H_1 W_1 X_1 + H_2 W_2 X_2)$)
-            * Rx decodes the combined precoded signals
+            * `Tx1` and `Tx2` send precoded signals simultaneously ($y = ifft(H_1 W_1 X_1 + H_2 W_2 X_2)$)
+            * `Rx` decodes the combined precoded signals
 3. Plot the amplitude of the combined signal, `abs(y)` (SNR: 10dB)
 4. Plot the SNR of the signal
-    * `Tx1` only
-    * `Tx2` only
+    * Only `Tx1`
+    * Only `Tx2`
     * Combined signal without precoding
     * Combined signal with precoding
 
@@ -98,6 +96,8 @@ In the part of decoding,
 
 ---
 ## Contributor
+
+> **NOTICE:** You can follow the contributing process [CONTRIBUTING.md](CONTRIBUTING.md) to join me. I am very welcome any issue!
 
 * [David Lu](https://github.com/yungshenglu)
 
