@@ -37,4 +37,4 @@ Thanks for contributing this repository. The following steps are show how to joi
 ---
 ## License
 
-GNU GENERAL PUBLIC LICENSE Version 3
+[GNU GENERAL PUBLIC LICENSE Version 3](LICENSE)
